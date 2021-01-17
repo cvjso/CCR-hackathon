@@ -1,6 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Home from './components/Home';
+import Navbar from "./components/Navbar"
 
 function App() {
 	return (
@@ -13,6 +14,7 @@ function App() {
 					<div>
 						<text>Ola Usuario</text>
 					</div>
+					<Navbar/>
 				</Route>
 			</Switch>
 		</Router>

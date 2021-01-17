@@ -1,0 +1,32 @@
+.navbar-main{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    /* background-color: rgb(189, 189, 189); */
+    height: 10%;
+}
+
+.navbar-content{
+    background: #FFFFFF;
+    box-shadow: 0px 32px 32px rgba(10, 56, 117, 0.08);
+    border-radius: 50px;
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-content div {
+    margin-right: 15%;
+}
+
+.navbar-content div:last-child {
+    margin-right: 0%;
+}
+
+.nav-icon {
+    width: 24px;
+}
