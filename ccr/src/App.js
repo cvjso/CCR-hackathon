@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Acess from './components/Acess';
 import Login from './components/Login';
 import LoginAuth from './components/LoginAuth';
+import { Certificatepage } from './components/Certificatepage';
 function App() {
 	return (
 		<Router>
@@ -23,6 +24,9 @@ function App() {
 				</Route>
 				<Route path="/loginauth">
 					<LoginAuth />
+				</Route>
+				<Route path="/certificatepage">
+					<Certificatepage />
 				</Route>
 				<Route path="/">
 					<Home />

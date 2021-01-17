@@ -1,0 +1,44 @@
+.main-certificatepage {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+#certificatepage-certificate1 {
+	width: 301px;
+	height: 192px;
+	border-radius: 20px;
+	margin-left: 9%;
+	margin-top: 40%;
+	margin-bottom: 3%;
+}
+#certificatepage-certificate2 {
+	width: 301px;
+	height: 192px;
+	border-radius: 20px;
+	margin-left: 9%;
+	margin-top: 5%;
+	margin-bottom: 3%;
+}
+.text1-certificatepage {
+	width: 321px;
+	height: 20px;
+	font-family: Actor;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 400;
+	margin-left: 7%;
+	text-align: center;
+}
+.text2-certificatepage {
+	width: 319px;
+	height: 40px;
+	font-family: Actor;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 400;
+	text-align: center;
+	margin-left: 8%;
+	align-items: center;
+}

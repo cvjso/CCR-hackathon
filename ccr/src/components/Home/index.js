@@ -8,7 +8,7 @@ export class Home extends Component {
 			<div className="main-home">
 				<img src={logo} id="logo" />
 				<div>
-					<h1 className="main-text">Uma plataforma feita por jovens para outros jovens</h1>
+					<h1 className="main-text"> A chance que você nunca teve, está bem aqui!</h1>
 				</div>
 				<text className="second-text"> um mundo de possibilidades na palma da sua mão!</text>
 				<div>
