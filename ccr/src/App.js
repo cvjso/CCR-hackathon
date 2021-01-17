@@ -4,6 +4,7 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Acess from './components/Acess';
 import Login from './components/Login';
+import LoginAuth from './components/LoginAuth';
 function App() {
 	return (
 		<Router>
@@ -19,6 +20,9 @@ function App() {
 				</Route>
 				<Route path="/login">
 					<Login />
+				</Route>
+				<Route path="/loginauth">
+					<LoginAuth />
 				</Route>
 				<Route path="/">
 					<Home />

@@ -7,7 +7,9 @@ export class Login extends Component {
 		return (
 			<div className="main-login">
 				<img src={logo} id="login-logo" />
-				<button className="login-button"> Login </button>
+				<Link to="/loginauth" id="login-container">
+					<button className="login-button"> Login </button>
+				</Link>
 				<button className="login-button"> Criar uma conta</button>
 			</div>
 		);
