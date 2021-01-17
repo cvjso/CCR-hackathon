@@ -1,9 +1,9 @@
 import React, {Component} from "react";
 import "./styles.css"
-import LookIcon from "../../discover.png";
-import HomeIcon from "../../home.png";
-import CertifIcon from "../../polls.png";
-import UserIcon from "../../user.png";
+import LookIcon from "../../images/discover.png";
+import HomeIcon from "../../images/home.png";
+import CertifIcon from "../../images/polls.png";
+import UserIcon from "../../images/user.png";
 
 
 export class Navbar extends Component {
