@@ -1,9 +1,24 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Redirect } from 'react-router-dom';
 import logo from '../../images/ON.png';
 import './styles.css';
 export class LoginAuth extends Component {
+	constructor(props) {
+		super(props);
+		this.state = {
+			redirect: false
+		};
+		this.Auth = this.Auth.bind(this);
+	}
+
+	Auth() {
+		this.setState({ redirect: true });
+	}
+
 	render() {
+		if (this.state.redirect) {
+			return <Redirect to={{ pathname: '/home' }} />;
+		}
 		return (
 			<div className="main-loginauth">
 				<img src={logo} id="loginauth-logo" />
@@ -19,7 +34,9 @@ export class LoginAuth extends Component {
 						<input type="password" className="secondbar" />
 					</div>
 				</div>
-				<button className="button-loginauth"> Login</button>
+				<button onClick={this.Auth} className="button-loginauth">
+					Login
+				</button>
 			</div>
 		);
 	}
