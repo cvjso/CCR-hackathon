@@ -1,0 +1,10 @@
+.panel {
+	display: flex;
+	justify-content: center;
+	margin-top: 10%;
+}
+
+#panel-img {
+	width: 197px;
+	height: 53px;
+}
