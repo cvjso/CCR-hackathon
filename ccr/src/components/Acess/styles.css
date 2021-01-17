@@ -1,0 +1,43 @@
+.main-acess {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+#acess-logo {
+	width: 145px;
+	height: 160px;
+	margin-top: 60%;
+	margin-bottom: 10%;
+}
+.acess-text {
+	width: 268px;
+	height: 30px;
+	font-family: actor;
+	font-size: 24px;
+	font-weight: 400px;
+	line-height: 32px;
+	text-align: center;
+	color: #6e6f8b;
+}
+.acess-button {
+	background: linear-gradient(180deg, #6e6f8b 0%, #6e6f8b 50%, #373737 99.99%);
+	border-radius: 50px;
+	color: white;
+	width: 266.1px;
+	height: 64.8px;
+	margin-top: 3%;
+	cursor: pointer;
+	font-size: 24px;
+	margin-left: 12.5%;
+	margin-right: auto;
+}
+#acess-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.acess-button:active {
+	background: linear-gradient(180deg, #1d78b4 0%, #291887 50%, #1b1987 99.99%);
+}

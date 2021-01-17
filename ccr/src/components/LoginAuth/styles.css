@@ -1,0 +1,53 @@
+.main-loginauth {
+	Display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+#loginauth-logo {
+	width: 102px;
+	height: 112px;
+	margin-top: 60%;
+	margin-bottom: 7%;
+}
+.firsttext-loginauth {
+	font-family: Actor;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	text-align: center;
+	color: #6e6f8b;
+}
+.secondtext-loginauth {
+	font-family: Actor;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	text-align: center;
+	color: #6e6f8b;
+}
+.firstbar {
+	width: 239px;
+	height: 44px;
+	border: 2px solid #6e6f8b;
+	box-sizing: border-box;
+	border-radius: 6px;
+}
+.secondbar {
+	width: 239px;
+	height: 44px;
+	box-sizing: border-box;
+	border: 2px solid #6e6f8b;
+	border-radius: 6px;
+}
+.button-loginauth {
+	width: 156px;
+	height: 48px;
+	background: linear-gradient(180deg, #1d78b4 0%, #291887 50%, #1b1987 99.99%);
+	border-radius: 50px;
+	color: white;
+	margin-top: 10%;
+	cursor: pointer;
+	font-size: 18px;
+}

@@ -12,7 +12,7 @@ export class Home extends Component {
 				</div>
 				<text className="second-text"> um mundo de possibilidades na palma da sua mão!</text>
 				<div>
-					<Link to="/teste">
+					<Link to="/acess">
 						<button className="button">Começar</button>
 					</Link>
 				</div>
