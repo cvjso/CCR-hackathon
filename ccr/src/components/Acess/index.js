@@ -10,9 +10,11 @@ export class Acess extends Component {
 				<div>
 					<text className="acess-text"> Escolha um acesso:</text>
 				</div>
-				<button className="acess-button"> Estudante </button>
-				<button className="acess-button"> Instrutor</button>
-				<button className="acess-button"> Empresas</button>
+				<Link to="/login">
+					<button className="acess-button"> Estudante </button>
+					<button className="acess-button"> Instrutor</button>
+					<button className="acess-button"> Empresas</button>
+				</Link>
 			</div>
 		);
 	}

@@ -1,0 +1,23 @@
+.main-login {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+#login-logo {
+	width: 145px;
+	height: 160px;
+	margin-top: 55%;
+}
+.login-button {
+	background: linear-gradient(180deg, #1d78b4 0%, #291887 50%, #1b1987 99.99%);
+	color: white;
+	width: 266.1px;
+	height: 64.8px;
+	border-radius: 50px;
+	cursor: pointer;
+	font-size: 24px;
+	margin-top: 20%;
+	margin-bottom: -10%;
+}
