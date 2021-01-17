@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../../images/Frame 1.png';
 import './styles.css';
 export class Home extends Component {
@@ -11,7 +12,9 @@ export class Home extends Component {
 				</div>
 				<text className="second-text"> um mundo de possibilidades na palma da sua mão!</text>
 				<div>
-					<button className="button"> Começar</button>
+					<Link to="/teste">
+						<button className="button">Começar</button>
+					</Link>
 				</div>
 			</div>
 		);

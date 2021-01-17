@@ -1,20 +1,20 @@
 import './App.css';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Home from './components/Home';
-import Navbar from "./components/Navbar"
+import Navbar from './components/Navbar';
 
 function App() {
 	return (
 		<Router>
 			<Switch>
-				<Route path="/sofia">
-					<Home />
-				</Route>
-				<Route path="/">
+				<Route path="/teste">
 					<div>
 						<text>Ola Usuario</text>
 					</div>
-					<Navbar/>
+					<Navbar />
+				</Route>
+				<Route path="/">
+					<Home />
 				</Route>
 			</Switch>
 		</Router>
