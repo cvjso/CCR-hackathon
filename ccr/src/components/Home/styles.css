@@ -1,0 +1,46 @@
+.main-home {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+#logo {
+	width: 280px;
+	height: 76px;
+	margin-top: 25%;
+}
+
+.button {
+	background: linear-gradient(180deg, #1d78b4 0%, #291887 50%, #1b1987 99.99%);
+	border-radius: 50px;
+	color: white;
+	width: 170px;
+	height: 48px;
+	margin-top: 70%;
+	font-size: 25px;
+}
+
+.main-text {
+	width: 338px;
+	height: 88px;
+	font-family: alata;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 32px;
+	text-align: center;
+	margin-top: 50%;
+	margin-bottom: -3%;
+}
+
+.second-text {
+	width: 200px;
+	height: 80px;
+	font-family: actor;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #6e6f8b;
+	text-align: center;
+}
