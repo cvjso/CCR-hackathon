@@ -10,6 +10,7 @@ import Acess from './components/Acess';
 import Login from './components/Login';
 import LoginAuth from './components/LoginAuth';
 import { Certificatepage } from './components/Certificatepage';
+import { Perfil } from './components/Perfil';
 function App() {
 	return (
 		<Router>
@@ -28,6 +29,9 @@ function App() {
 				</Route>
 				<Route path="/certificatepage">
 					<Certificatepage />
+				</Route>
+				<Route path="/perfil">
+					<Perfil />
 				</Route>
 				<Route path="/">
 					<Home />
