@@ -1,0 +1,75 @@
+.modal-content {
+	display: flex;
+	flex-direction: column;
+}
+
+#modal-style {
+	background: #ffffff;
+	box-shadow: 0px 32px 32px rgba(10, 56, 117, 0.08);
+	border-radius: 20px;
+}
+
+#popup-close {
+	font-family: Actor;
+	background: transparent;
+	text-decoration: none;
+	font-size: 24px;
+	margin-right: auto;
+}
+
+#popup-header {
+	font-family: Actor;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 30px;
+	display: flex;
+	align-items: center;
+	color: #0a3875;
+}
+
+#popup-text {
+	font-family: Actor;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 20px;
+	color: #6e6f8b;
+}
+
+#popup-tags {
+	font-family: Actor;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 20px;
+	color: #0a3875;
+}
+
+#popup-img {
+	margin-top: 10%;
+	width: 280px;
+	height: 188.27px;
+}
+
+#popup-button {
+	background: linear-gradient(180deg, #2f7dc9 0%, #4a4b9f 51.04%, #262182 100%);
+	border: 2px solid #6e6f8b;
+	box-sizing: border-box;
+	border-radius: 50px;
+	width: 280px;
+	height: 64px;
+	color: white;
+	margin-top: 10%;
+}
+
+#popup-button:active {
+	background-color: red;
+}
+
+button {
+	border: 0;
+	font-size: 100%;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
