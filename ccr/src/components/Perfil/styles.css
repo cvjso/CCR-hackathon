@@ -1,0 +1,13 @@
+.main-perfil {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+#perfil {
+	width: 271px;
+	height: 406px;
+	border-radius: 20px;
+	margin-top: 15%;
+}

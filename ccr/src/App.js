@@ -12,6 +12,7 @@ import LoginAuth from './components/LoginAuth';
 import { Certificatepage } from './components/Certificatepage';
 import Search from './components/Search';
 
+import { Perfil } from './components/Perfil';
 function App() {
 	return (
 		<Router>
@@ -33,6 +34,9 @@ function App() {
 				</Route>
 				<Route path="/certificatepage">
 					<Certificatepage />
+				</Route>
+				<Route path="/perfil">
+					<Perfil />
 				</Route>
 				<Route path="/">
 					<Home />
