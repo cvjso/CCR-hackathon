@@ -10,6 +10,8 @@ import Acess from './components/Acess';
 import Login from './components/Login';
 import LoginAuth from './components/LoginAuth';
 import { Certificatepage } from './components/Certificatepage';
+import Search from './components/Search';
+
 function App() {
 	return (
 		<Router>
@@ -19,6 +21,9 @@ function App() {
 				</Route>
 				<Route path="/acess">
 					<Acess />
+				</Route>
+				<Route path="/search">
+					<Search />
 				</Route>
 				<Route path="/login">
 					<Login />

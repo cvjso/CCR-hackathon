@@ -22,12 +22,12 @@ export class Navbar extends Component {
 						</Link>
 					</div>
 					<div>
-						<Link to="/certif">
+						<Link to="/certificatepage">
 							<img className="nav-icon" src={CertifIcon} alt="logo" />
 						</Link>
 					</div>
 					<div>
-						<Link to="/user">
+						<Link to="/perfil">
 							<img className="nav-icon" src={UserIcon} alt="logo" />
 						</Link>
 					</div>
